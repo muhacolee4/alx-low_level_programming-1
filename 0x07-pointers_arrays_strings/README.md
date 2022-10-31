@@ -1,15 +1,19 @@
-# About Folder
+Task 0. Write a function that fills memory with a constant byte.
 
-This folder still falls under the concept of arrays, pointers, strings and functios. I have been exposed to concept of double pointers, multi dimenesional arrays and as such am going to be writing functions that works same way as the standard functions in string.h
+Task 1. Write a function that copies memory area.
 
-## Contents
+Task 2. Write a function that locates a character in a string.
 
-* memset()
-* memcpy()
-* strchr()
-* stsspn()
-* strpbrk()
-* strstr
-* Function that add the diagonals of a square matrix
-* Function that sets the value of a pointer to a char
+Task 3. Write a function that gets the length of a prefix substring.
 
+Task 4. Write a function that searches a string for any of a set of bytes.
+
+Task 5. Write a function that locates a substring.
+
+Task 6. Write a function that prints the chessboard.
+
+Task 7. Write a function that prints the sum of the two diagonals of a square matrix of integers.
+
+Task 8. Write a function that sets the value of a pointer to a char.
+
+Task 9. Create a file that contains the password for the crackme2 executable.
