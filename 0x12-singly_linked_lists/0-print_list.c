@@ -1,5 +1,4 @@
 #include "lists.h"
-#include "lists.h"
 /**
  * print_list - prints list.
  * @h: param list
@@ -7,16 +6,17 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t s = 0;
+	size_t nodelen;
 
-	while (h)
+	nodelen = 0;
+	while (h != NULL)
 	{
 		if (h->str == NULL)
-			printf("[0], (nil)\n");
+			printf("[%d] %s\n", 0, "(nil)");
 		else
-			printf("[%u] %s\n", h->len, h->str);
+			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
-		s++;
+		nodelen++;
 	}
-	return (s);
+	return (nodelen);
 }
